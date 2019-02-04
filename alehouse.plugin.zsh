@@ -65,3 +65,4 @@ alias bs="brew search"
 alias bsd="brew search --desc"
 alias cus="brew cask uninstall"
 alias cuz="brew cask zap"
+alias blv='brew leaves'

@@ -1,6 +1,6 @@
 # alehouse
 
-My custom zsh-plugin for inspired of better aliases, forked from [timothyrowan][8a51380c].
+My custom zsh-plugin for `zsh` inspired by [betterbrew][8a51380c].
 
 `alehouse-zsh-plugin` contains short aliases for homebrew commands. For now I just have the ones from my personal `.aliases` file and those from [betterbrew][8a51380c].
 
@@ -25,7 +25,7 @@ $ bifs zsh
 1. Go to `oh-my-zsh` plugins directory:
 
 ```sh
-$ cd ~/.oh-my-zsh/plugins
+$ cd ~/.oh-my-zsh/custom/plugins
 ```
 
 2. Clone the repository into a new directory `alehouse` :
@@ -34,24 +34,26 @@ $ cd ~/.oh-my-zsh/plugins
 git clone https://github.com/sticklerm3/alehouse-zsh-plugin.git alehouse
 ```
 
-3. Enable `mat-brew` plugin by adding to your .zshrc configuration file:
+3. Enable `alehouse` plugin by adding to your `.zshrc` configuration file:
 
-```
-plugins=(alehouse)
+```sh
+$ plugins=(alehouse)
 ```
 
 4. Restart your shell.
+
+```sh
+$ source .zshrc
+```
 
 ## Essentials
 
 Basically just memorize these, they make life easier!
 
-`brewup` - homebrew spring cleaning. Does all the the following: `brew -v update && brew -v upgrade && brew cask upgrade && brew cleanup && brew doctor`
-
-| alias  | command                                                                                 |
-| :----- | :-------------------------------------------------------------------------------------- |
-| `cask` | `brew cask`                                                                             |
-| brewup | `brew -v update && brew -v upgrade && brew cask upgrade && brew cleanup && brew doctor` |
+| alias    | command                                                                                 |
+| :------- | :-------------------------------------------------------------------------------------- |
+| `cask`   | `brew cask`                                                                             |
+| `brewup` | `brew -v update && brew -v upgrade && brew cask upgrade && brew cleanup && brew doctor` |
 
 ## All Aliases
 
@@ -65,6 +67,7 @@ Basically just memorize these, they make life easier!
 | ci       | cask install        |
 | cus      | brew cask uninstall |
 | cuz      | brew cask zap       |
+| blv      | brew leaves         |
 
 | betterbrew | Command           |
 | :--------- | :---------------- |
@@ -124,5 +127,6 @@ To-do:
 
 - [ ] replace alias for `brew prune` as its been deprecated.
 - [ ] re-organize cheatsheet to be sorted by category.
+- [ ] wrap aliaases in backticks.
 
 [8a51380c]: https://github.com/timothyrowan/betterbrew-zsh-plugin "betterbrew on github"
