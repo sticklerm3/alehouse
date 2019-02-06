@@ -57,7 +57,7 @@ alias sbrse='sudo brse'
 # Matt's additions
 alias brewup="brew -v update && brew -v upgrade && brew cask upgrade && brew cleanup && brew doctor"
 alias cask="brew cask"
-alias bi='brew info'
+alias bi='brew info' # conflicts with bundler! comment this out to use that alias instead
 alias bis='brew install'
 alias ci='brew cask info'
 alias cis='brew cask install'

@@ -4,7 +4,7 @@ My custom zsh-plugin for `zsh` inspired by [betterbrew][8a51380c].
 
 `alehouse-zsh-plugin` contains short aliases for homebrew commands. For now I just have the ones from my personal `.aliases` file and those from [betterbrew][8a51380c].
 
-This is for my personal use and is always a work in progress. Feel free to hang with it.
+This is for my personal use and is always a work in progress. Feel free to use it, and dont be afraid make suggestions or offer any corrections to mistakes!
 
 ## Example
 
@@ -46,9 +46,9 @@ $ plugins=(alehouse)
 $ source .zshrc
 ```
 
-## Essentials
+## Brew every day
 
-Basically just memorize these, they make life easier!
+The best part of waking up is having shortcuts in your cup!
 
 | alias    | command                                                                                 |
 | :------- | :-------------------------------------------------------------------------------------- |
@@ -57,76 +57,83 @@ Basically just memorize these, they make life easier!
 
 ## All Aliases
 
+### My additions
+
 | personal | Command             |
 | :------- | :------------------ |
-| bi       | brew info           |
-| bis      | brew install        |
-| bs       | brew search         |
-| bsd      | brew search --desc  |
-| cask     | brew cask           |
-| ci       | cask install        |
-| cus      | brew cask uninstall |
-| cuz      | brew cask zap       |
-| blv      | brew leaves         |
+| `bi`     | brew info\*         |
+| `bis`    | brew install        |
+| `bs`     | brew search         |
+| `bsd`    | brew search --desc  |
+| `cask`   | brew cask           |
+| `ci`     | cask install        |
+| `cus`    | brew cask uninstall |
+| `cuz`    | brew cask zap       |
+| `blv`    | brew leaves         |
 
-| betterbrew | Command           |
-| :--------- | :---------------- |
-| binst      | brew install      |
-| buinst     | brew uninstall    |
-| bupd       | brew update       |
-| blst       | brew list         |
-| bsrch      | brew search       |
-| banal      | brew analytics    |
-| bcat       | brew cat          |
-| bclean     | brew cleanup      |
-| bcom       | brew command      |
-| bcoms      | brew commands     |
-| bcon       | brew config       |
-| bdeps      | brew deps         |
-| bdesc      | brew desc         |
-| bdiy       | brew diy          |
-| bdoc       | brew doctor       |
-| bfetch     | brew fetch        |
-| bgist      | brew gist-logs    |
-| bhome      | brew home         |
-| binfo      | brew info         |
-| bleaves    | brew leaves       |
-| bln        | brew ln           |
-| blog       | brew log          |
-| bmig       | brew migrate      |
-| bmiss      | brew missing      |
-| bopt       | brew options      |
-| bout       | brew outdated     |
-| bpin       | brew pin          |
-| bpinst     | brew postinstall  |
-| ~~bprune~~ | ~~brew prune~~    |
-| bread      | brew readall      |
-| brinst     | brew reinstall    |
-| bsh        | brew sh           |
-| bstyle     | brew style        |
-| bswitch    | brew switch       |
-| btap       | brew tap          |
-| btapinfo   | brew tap-info     |
-| btappin    | brew tap-pin      |
-| btapunpin  | brew tap-unpin    |
-| bulink     | brew unlink       |
-| bupack     | brew unpack       |
-| bupin      | brew unpin        |
-| butap      | brew untap        |
-| bupdr      | brew update-reset |
-| bupgr      | brew upgrade      |
-| buses      | brew uses         |
-| bcache     | brew --cache      |
-| bcell      | brew --cellar     |
-| benv       | brew --env        |
-| bprefix    | brew --prefix     |
-| brepo      | brew --repository |
-| bver       | brew --version    |
+> - `bi` currently conflicts with the bundler package currently included with omz. Comment this out if you prefer to use that one.
+
+### betterbrew aliases
+
+> aliases that are ~~crossed out~~ have been removed.
+
+| betterbrew   | Command           |
+| :----------- | :---------------- |
+| `binst`      | brew install      |
+| `buinst`     | brew uninstall    |
+| `bupd`       | brew update       |
+| `blst`       | brew list         |
+| `bsrch`      | brew search       |
+| `banal`      | brew analytics    |
+| `bcat`       | brew cat          |
+| `bclean`     | brew cleanup      |
+| `bcom`       | brew command      |
+| `bcoms`      | brew commands     |
+| `bcon`       | brew config       |
+| `bdeps`      | brew deps         |
+| `bdesc`      | brew desc         |
+| `bdiy`       | brew diy          |
+| `bdoc`       | brew doctor       |
+| `bfetch`     | brew fetch        |
+| `bgist`      | brew gist-logs    |
+| `bhome`      | brew home         |
+| `binfo`      | brew info         |
+| `bleaves`    | brew leaves       |
+| `bln`        | brew ln           |
+| `blog`       | brew log          |
+| `bmig`       | brew migrate      |
+| `bmiss`      | brew missing      |
+| `bopt`       | brew options      |
+| `bout`       | brew outdated     |
+| `bpin`       | brew pin          |
+| `bpinst`     | brew postinstall  |
+| ~~`bprune`~~ | ~~brew prune~~    |
+| `bread`      | brew readall      |
+| `brinst`     | brew reinstall    |
+| `bsh`        | brew sh           |
+| `bstyle`     | brew style        |
+| `bswitch`    | brew switch       |
+| `btap`       | brew tap          |
+| `btapinfo`   | brew tap-info     |
+| `btappin`    | brew tap-pin      |
+| `btapunpin`  | brew tap-unpin    |
+| `bulink`     | brew unlink       |
+| `bupack`     | brew unpack       |
+| `bupin`      | brew unpin        |
+| `butap`      | brew untap        |
+| bupdr        | brew update-reset |
+| `bupgr`      | brew upgrade      |
+| `buses`      | brew uses         |
+| `bcache`     | brew --cache      |
+| `bcell`      | brew --cellar     |
+| `benv`       | brew --env        |
+| `bprefix`    | brew --prefix     |
+| `brepo`      | brew --repository |
+| `bver`       | brew --version    |
 
 To-do:
 
 - [ ] replace alias for `brew prune` as its been deprecated.
 - [ ] re-organize cheatsheet to be sorted by category.
-- [ ] wrap aliaases in backticks.
 
 [8a51380c]: https://github.com/timothyrowan/betterbrew-zsh-plugin "betterbrew on github"
