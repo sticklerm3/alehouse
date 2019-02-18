@@ -66,3 +66,5 @@ alias bsd="brew search --desc"
 alias cus="brew cask uninstall"
 alias cuz="brew cask zap"
 alias blv='brew leaves'
+
+alias tokenizer="$(brew --repository)/Library/Taps/Homebrew/homebrew-cask/developer/bin/generate_cask_token"
