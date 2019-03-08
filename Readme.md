@@ -50,26 +50,26 @@ $ source .zshrc
 
 The best part of waking up is having shortcuts in your cup!
 
-| alias    | command                                                                                 |
-| :------- | :-------------------------------------------------------------------------------------- |
-| `cask`   | `brew cask`                                                                             |
-| `brewup` | `brew -v update && brew -v upgrade && brew cask upgrade && brew cleanup && brew doctor` |
+| alias    | command                                                            |
+| :------- | :----------------------------------------------------------------- |
+| `cask`   | `brew cask`                                                        |
+| `brewup` | `brew -v update && brew -v upgrade && brew cleanup && brew doctor` |
 
 ## All Aliases
 
 ### My additions
 
 | personal | Command             |
-| :------- | :------------------ |
-| `bi`     | brew info\*         |
-| `bis`    | brew install        |
-| `bs`     | brew search         |
-| `bsd`    | brew search --desc  |
-| `cask`   | brew cask           |
-| `ci`     | cask install        |
-| `cus`    | brew cask uninstall |
-| `cuz`    | brew cask zap       |
-| `blv`    | brew leaves         |
+| :------: | :------------------ |
+|   `bi`   | brew info\*         |
+|  `bis`   | brew install        |
+|   `bs`   | brew search         |
+|  `bsd`   | brew search --desc  |
+|  `cask`  | brew cask           |
+|   `ci`   | cask install        |
+|  `cus`   | brew cask uninstall |
+|  `cuz`   | brew cask zap       |
+|  `blv`   | brew leaves         |
 
 > - `bi` currently conflicts with the bundler package currently included with omz. Comment this out if you prefer to use that one.
 
@@ -77,59 +77,59 @@ The best part of waking up is having shortcuts in your cup!
 
 > aliases that are ~~crossed out~~ have been removed.
 
-| betterbrew   | Command           |
-| :----------- | :---------------- |
-| `binst`      | brew install      |
-| `buinst`     | brew uninstall    |
-| `bupd`       | brew update       |
-| `blst`       | brew list         |
-| `bsrch`      | brew search       |
-| `banal`      | brew analytics    |
-| `bcat`       | brew cat          |
-| `bclean`     | brew cleanup      |
-| `bcom`       | brew command      |
-| `bcoms`      | brew commands     |
-| `bcon`       | brew config       |
-| `bdeps`      | brew deps         |
-| `bdesc`      | brew desc         |
-| `bdiy`       | brew diy          |
-| `bdoc`       | brew doctor       |
-| `bfetch`     | brew fetch        |
-| `bgist`      | brew gist-logs    |
-| `bhome`      | brew home         |
-| `binfo`      | brew info         |
-| `bleaves`    | brew leaves       |
-| `bln`        | brew ln           |
-| `blog`       | brew log          |
-| `bmig`       | brew migrate      |
-| `bmiss`      | brew missing      |
-| `bopt`       | brew options      |
-| `bout`       | brew outdated     |
-| `bpin`       | brew pin          |
-| `bpinst`     | brew postinstall  |
+|   betterbrew | Command           |
+| -----------: | :---------------- |
+|      `binst` | brew install      |
+|     `buinst` | brew uninstall    |
+|       `bupd` | brew update       |
+|       `blst` | brew list         |
+|      `bsrch` | brew search       |
+|      `banal` | brew analytics    |
+|       `bcat` | brew cat          |
+|     `bclean` | brew cleanup      |
+|       `bcom` | brew command      |
+|      `bcoms` | brew commands     |
+|       `bcon` | brew config       |
+|      `bdeps` | brew deps         |
+|      `bdesc` | brew desc         |
+|       `bdiy` | brew diy          |
+|       `bdoc` | brew doctor       |
+|     `bfetch` | brew fetch        |
+|      `bgist` | brew gist-logs    |
+|      `bhome` | brew home         |
+|      `binfo` | brew info         |
+|    `bleaves` | brew leaves       |
+|        `bln` | brew ln           |
+|       `blog` | brew log          |
+|       `bmig` | brew migrate      |
+|      `bmiss` | brew missing      |
+|       `bopt` | brew options      |
+|       `bout` | brew outdated     |
+|       `bpin` | brew pin          |
+|     `bpinst` | brew postinstall  |
 | ~~`bprune`~~ | ~~brew prune~~    |
-| `bread`      | brew readall      |
-| `brinst`     | brew reinstall    |
-| `bsh`        | brew sh           |
-| `bstyle`     | brew style        |
-| `bswitch`    | brew switch       |
-| `btap`       | brew tap          |
-| `btapinfo`   | brew tap-info     |
-| `btappin`    | brew tap-pin      |
-| `btapunpin`  | brew tap-unpin    |
-| `bulink`     | brew unlink       |
-| `bupack`     | brew unpack       |
-| `bupin`      | brew unpin        |
-| `butap`      | brew untap        |
-| bupdr        | brew update-reset |
-| `bupgr`      | brew upgrade      |
-| `buses`      | brew uses         |
-| `bcache`     | brew --cache      |
-| `bcell`      | brew --cellar     |
-| `benv`       | brew --env        |
-| `bprefix`    | brew --prefix     |
-| `brepo`      | brew --repository |
-| `bver`       | brew --version    |
+|      `bread` | brew readall      |
+|     `brinst` | brew reinstall    |
+|        `bsh` | brew sh           |
+|     `bstyle` | brew style        |
+|    `bswitch` | brew switch       |
+|       `btap` | brew tap          |
+|   `btapinfo` | brew tap-info     |
+|    `btappin` | brew tap-pin      |
+|  `btapunpin` | brew tap-unpin    |
+|     `bulink` | brew unlink       |
+|     `bupack` | brew unpack       |
+|      `bupin` | brew unpin        |
+|      `butap` | brew untap        |
+|        bupdr | brew update-reset |
+|      `bupgr` | brew upgrade      |
+|      `buses` | brew uses         |
+|     `bcache` | brew --cache      |
+|      `bcell` | brew --cellar     |
+|       `benv` | brew --env        |
+|    `bprefix` | brew --prefix     |
+|      `brepo` | brew --repository |
+|       `bver` | brew --version    |
 
 To-do:
 
