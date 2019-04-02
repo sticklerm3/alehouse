@@ -82,7 +82,6 @@ The best part of waking up is having shortcuts in your cup! Some of my most used
 | `ci`        | `cask info`                                                                                          |
 | `cis`       | `cask install`                                                                                       |
 | `brewup`    | `brew -v update && brew -v upgrade && brew cask upgrade && brew -v cleanup --prune=5 && brew doctor` |
-| `tokenizer` | Finds the `token` for an application to name and create a cask.                                      |
 
 ### Cask Tools
 
