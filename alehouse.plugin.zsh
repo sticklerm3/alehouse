@@ -55,7 +55,7 @@ alias brseli='brse list'
 alias sbrse='sudo brse'
 
 # Matt's additions
-alias brewup="brew -v update && brew -v upgrade && brew cask upgrade && brew cleanup && brew doctor"
+alias brewup="brew -v update && brew -v upgrade && brew cask upgrade && brew -v cleanup --prune=5 && brew doctor"
 alias cask="brew cask"
 alias bi='brew info' # conflicts with bundler! comment this out to use that alias instead
 alias bis='brew install'
@@ -64,5 +64,18 @@ alias cis='brew cask install'
 alias bs="brew search"
 alias bsd="brew search --desc"
 alias cus="brew cask uninstall"
+alias brdr="brew doctor"
 alias cuz="brew cask zap"
 alias blv='brew leaves'
+alias brls='brew ls'
+
+alias tokenizer="$(brew --repository)/Library/Taps/Homebrew/homebrew-cask/developer/bin/generate_cask_token"
+
+# hashes for easier cd'ing
+# example: cd ~taps
+hash -d brewr="$(brew --repo)"
+hash -d brpfx="$(brew --prefix)"
+hash -d taps="$(brew --prefix)/Homebrew/Library/Taps/"
+hash -d cellar="$(brew --cellar)/"
+hash -d caskroom="$(brew --prefix)/Caskroom/"
+hash -d brche="$(brew --cache)"
