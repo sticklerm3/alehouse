@@ -84,6 +84,13 @@ The best part of waking up is having shortcuts in your cup! Some of my most used
 | `brewup`    | `brew -v update && brew -v upgrade && brew cask upgrade && brew -v cleanup --prune=5 && brew doctor` |
 | `tokenizer` | Finds the `token` for an application to name and create a cask.                                      |
 
+### Cask Tools
+
+| Name          | Usage                     | Description                                                     |
+| ------------- | ------------------------- | --------------------------------------------------------------- |
+| `tokenizer`   | `tokenizer path/to/app`   | Finds the `token` for an application to name and create a cask. |
+| `findappcast` | `findappcast path/to/app` | Finds `appcast` information for the given app, if available     |
+
 ## All Aliases
 
 ### My additions

@@ -69,6 +69,7 @@ alias cuz="brew cask zap"
 alias blv='brew leaves'
 alias brls='brew ls'
 
+alias findappcast="$(brew --repository)/Library/Taps/homebrew/homebrew-cask/developer/bin/find_appcast"
 alias tokenizer="$(brew --repository)/Library/Taps/Homebrew/homebrew-cask/developer/bin/generate_cask_token"
 
 # hashes for easier cd'ing
