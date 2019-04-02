@@ -76,6 +76,6 @@ alias tokenizer="$(brew --repository)/Library/Taps/Homebrew/homebrew-cask/develo
 hash -d brewr="$(brew --repo)"
 hash -d brpfx="$(brew --prefix)"
 hash -d taps="$(brew --prefix)/Homebrew/Library/Taps/"
-hash -d cellar="$(brew --prefix)/Cellar/"
+hash -d cellar="$(brew --cellar)/"
 hash -d caskroom="$(brew --prefix)/Caskroom/"
 hash -d brche="$(brew --cache)"
